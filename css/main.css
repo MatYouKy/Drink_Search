@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #343434;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mainDiv {
+  width: 800px;
+  background-color: #fff;
+  box-shadow: 0 0 15px #663702;
+}
+
+.mainDiv .top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  height: 360px;
+  padding: 20px 40px;
+  background-image: url("https://cdn.pixabay.com/photo/2019/10/23/12/04/bottles-4571406_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.mainDiv .bg-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.301);
+  z-index: -1;
+}
+
+.mainDiv h1 {
+  font-family: Lemonada;
+  color: wheat;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mainDiv input {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+.mainDiv .bottom {
+  margin: 20px 40px;
+}
+
+.mainDiv .bottom ul {
+  padding: 0 10px;
+  list-style: none;
+}
+
+.mainDiv .bottom ul li {
+  padding: 8px;
+  border-bottom: 1px dashed rgba(126, 25, 25, 0.74);
+}
+
+.mainDiv .bottom ul li:last-child {
+  border-bottom: none;
+  padding: 8px;
+}
+/*# sourceMappingURL=main.css.map */
